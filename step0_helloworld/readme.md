@@ -1,0 +1,1 @@
+Read [Getting Started](http://facebook.github.io/react/docs/getting-started.html)
