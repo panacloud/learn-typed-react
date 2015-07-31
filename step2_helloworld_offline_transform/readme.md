@@ -14,6 +14,6 @@ http://babeljs.io/docs/setup/#babel_cli
 4. Install Babel Gulp
 http://babeljs.io/docs/setup/#gulp
 
-5. Just run gulp by typing gulp on the command promot/terminal
+5. Just run gulp default task by typing gulp on the command promot/terminal
 
 
