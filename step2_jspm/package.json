@@ -1,0 +1,23 @@
+{
+  "name": "step2_jspm",
+  "version": "1.0.0",
+  "description": "Install npm install jspm -g",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.10"
+  },
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@0.14.0-rc1",
+      "react-dom": "npm:react-dom@0.14.0-rc1"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}

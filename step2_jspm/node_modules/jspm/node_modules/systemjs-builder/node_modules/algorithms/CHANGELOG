@@ -1,0 +1,115 @@
+CHANGELOG
+=========
+0.8.0 (2014-10-29)
+* Modular package, lets you require specific modules:
+ * require('algorithms/data_structures')
+ * require('algorithms/sorting')
+ * require('algorithms/search')
+ * require('algorithms/graph')
+ * require('algorithms/math')
+ * require('algorithms/string')
+
+0.7.1 (2014-10-18)
+* Added Shannon Entropy to Math namespace
+
+0.7.0 (2014-10-12)
+* Module Sort is now "Sorting"
+* And some backward compatible refactoring
+
+0.6.0 (2014-08-15)
+* Browser bundle
+* Data Structures
+ * forEach in Hash Table, Set, Heap and Queue
+ * Set
+* String
+ * Longest common subsequence
+* Math
+ * Logarithmic time Fibonacci
+* Graph
+ * Kruskal's MST
+ * Prim's MST
+ * DFS
+ * BFS
+ * Floyd-Warshall
+
+0.5.0 (2014-07-09)
+* Math
+ * Fast Power
+ * O(1) Fibonacci - Binet's formula
+ * Subsequent permutation - Narayana's algorithm
+ * Reservoir sampling
+
+* Data Structures
+ * Disjoint set forest
+
+* String
+ * Hamming edit distance
+ * Huffman encoding/decoding
+
+0.4.0 (2014-06-06)
+* Sorting
+ * Selection Sort
+ * Radix Sort
+
+* Graphs
+ * DFS
+ * Euler path
+
+* String
+ * Knuth-Morris-Pratt
+
+0.3.0 (2014-06-03)
+* Math
+ * Square root by Newton's method
+
+* Data Structures
+ * Hash table
+
+* Sorting
+ * Insertion sort
+ * Heap sort
+ * Counting sort
+
+0.2.0 (2014-06-01)
+* Graphs
+ * Shortest Path Faster Algorithm (#34)
+ * Bellman-Ford Shortest Path (#36)
+
+* Math
+ * Extended Euclidean Algorithm (#37)
+
+* Strings
+ * Karp-Rabin String Matching (#35)
+
+
+0.1.0 (2014-05-30)
+* Sorting
+ * Bubble Sort
+ * Quicksort
+ * Merge sort
+
+* Graphs
+ * Dijkstra
+ * Topological Sort
+
+* Math
+ * Fibonacci
+ * Fisher-Yates
+ * Euclidean GCD
+
+* Search
+ * Binary Search
+ * Breadth first search (for BSTs)
+ * Depth first search (for BSTs)
+
+* String
+ * Levenshtein edit distance
+
+* Data Structures
+ * Binary Search Tree
+ * Graph
+ * Heap
+ * Linked list
+ * Priority Queue
+ * Queue
+ * Stack

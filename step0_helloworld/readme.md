@@ -4,3 +4,6 @@ Read [Hello World from the chapter 1 of the book](https://library.oreilly.com/bo
 
 Download React 0.14 from:
 http://facebook.github.io/react/blog/2015/09/10/react-v0.14-rc1.html
+
+Install Chrome React Tools:
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
