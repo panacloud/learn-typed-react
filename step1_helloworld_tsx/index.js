@@ -1,2 +1,2 @@
 /// <reference path="./typings/tsd.d.ts" />
-React.render(<h1>Hello TSX</h1>, document.getElementById("app"));
+React.render(React.createElement("h1", null, "Hello TSX and JSX"), document.getElementById("app"));
