@@ -3,7 +3,7 @@
 import * as React from 'react'; 
 
 interface TextAreaCounterProps extends React.Props<any> {
-  initialText?: string;
+  text: string;
 }
 
 interface TextAreaCounterState {
@@ -14,7 +14,7 @@ class TextAreaCounter extends React.Component<TextAreaCounterProps, TextAreaCoun
 	
 	constructor(props: TextAreaCounterProps) {
     	super(props);
-    	this.state = {text: props.initialText};
+    	this.state = {text: props.text};
   	}
 	  
 	  
@@ -32,7 +32,7 @@ class TextAreaCounter extends React.Component<TextAreaCounterProps, TextAreaCoun
 	}
 }
 
-React.render(React.createElement(TextAreaCounter, {initialText: "Bobz" }), 
+React.render(React.createElement(TextAreaCounter, {text: "Bobz" }), 
 	document.getElementById("app"));
 	
 

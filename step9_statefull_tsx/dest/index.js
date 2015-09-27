@@ -3,7 +3,7 @@ import * as React from 'react';
 class TextAreaCounter extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { text: props.initialText };
+        this.state = { text: props.text };
     }
     render() {
         return React.DOM.div(null, React.DOM.textarea({
@@ -17,4 +17,4 @@ class TextAreaCounter extends React.Component {
         });
     }
 }
-React.render(React.createElement(TextAreaCounter, { initialText: "Bobz" }), document.getElementById("app"));
+React.render(React.createElement(TextAreaCounter, { text: "Bobz" }), document.getElementById("app"));
