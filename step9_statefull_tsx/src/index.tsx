@@ -33,8 +33,8 @@ class TextAreaCounter extends React.Component<TextAreaCounterProps, TextAreaCoun
 	}
 }
 
-React.render(React.createElement(TextAreaCounter, {text: "Bobz" }), 
-	document.getElementById("app"));
+React.render(<TextAreaCounter text="Babu"></TextAreaCounter>, 
+				document.getElementById("app"));
 	
 
 	

@@ -14,4 +14,4 @@ class TextAreaCounter extends React.Component {
         });
     }
 }
-React.render(React.createElement(TextAreaCounter, { text: "Bobz" }), document.getElementById("app"));
+React.render(React.createElement(TextAreaCounter, {"text": "Babu"}), document.getElementById("app"));
