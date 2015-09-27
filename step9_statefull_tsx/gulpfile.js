@@ -8,7 +8,8 @@ gulp.task('webserver', ['transpile'], function() {
 
 gulp.task("transpile", function(){
 	gulp.src("src/**/*{ts,tsx}").pipe(ts({
-                           target: 'ES6'
+                           target: 'ES6',
+						   jsx: 'react'
                        })).pipe(gulp.dest("dest/"));
 });
 

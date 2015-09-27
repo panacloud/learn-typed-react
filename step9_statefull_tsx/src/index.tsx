@@ -19,10 +19,11 @@ class TextAreaCounter extends React.Component<TextAreaCounterProps, TextAreaCoun
 	  
 	  
 	render(){
-		return React.DOM.div(null, React.DOM.textarea({
-			value: this.state.text,
-			onChange: this.textChange.bind(this)
-		}), React.DOM.h3(null, this.state.text.length));
+			return (<div>
+						<textarea onChange={this.textChange.bind(this)} value={this.state.text}></textarea>
+						<h3>{this.state.text.length}</h3>
+			 		</div>);
+		
 	}
 	 
 	textChange(ev: any) {

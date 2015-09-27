@@ -6,10 +6,7 @@ class TextAreaCounter extends React.Component {
         this.state = { text: props.text };
     }
     render() {
-        return React.DOM.div(null, React.DOM.textarea({
-            value: this.state.text,
-            onChange: this.textChange.bind(this)
-        }), React.DOM.h3(null, this.state.text.length));
+        return (React.createElement("div", null, React.createElement("textarea", {"onChange": this.textChange.bind(this), "value": this.state.text}), React.createElement("h3", null, this.state.text.length)));
     }
     textChange(ev) {
         this.setState({
