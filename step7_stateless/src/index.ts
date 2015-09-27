@@ -7,7 +7,7 @@ interface TextAreaCounterProps extends React.Props<any> {
 }
 
 interface TextAreaCounterState {
-	count: number;
+	
 }
 
 class TextAreaCounter extends React.Component<TextAreaCounterProps, TextAreaCounterState>{
@@ -18,7 +18,7 @@ class TextAreaCounter extends React.Component<TextAreaCounterProps, TextAreaCoun
 	}
 }
 
-React.render(React.createElement(TextAreaCounter, {text: "Bobh" }), 
+React.render(React.createElement(TextAreaCounter, {text: "Bob" }), 
 	document.getElementById("app"));
 	
 

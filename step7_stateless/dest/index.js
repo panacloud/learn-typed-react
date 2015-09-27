@@ -7,4 +7,4 @@ class TextAreaCounter extends React.Component {
         }), React.DOM.h3(null, this.props.text.length));
     }
 }
-React.render(React.createElement(TextAreaCounter, { text: "Bobh" }), document.getElementById("app"));
+React.render(React.createElement(TextAreaCounter, { text: "Bob" }), document.getElementById("app"));
