@@ -47,16 +47,18 @@ class TextAreaCounter extends React.Component<TextAreaCounterProps, TextAreaCoun
 		console.log("componentWillUnmount is called");
 	}
 	
-	componentWillUpdate(){
+	componentWillUpdate(nextProps: TextAreaCounterProps, nextState: TextAreaCounterState): void{
 		//executed before the render() method of your component
 		//is called again (as a result to changes to the properties or state)
 		console.log("componentWillUpdatet is called");
+		//You can compare the arguments e.g. newProps with the current this.props and decide whether to act on it.
 	}
 	
-	componentDidUpdate(){
+	componentDidUpdate(oldProps: TextAreaCounterProps, oldState: TextAreaCounterState){
 		//executed after the render() method is done and the new
 		//changes to the underlying DOM have been applied
 		console.log("componentDidUpdate is called");
+		//You can use this.setState() here, which you cannot do in componentWillUpdate().
 	}
 	
 	shouldComponentUpdate(newProps: TextAreaCounterProps, newState: TextAreaCounterState): boolean{
